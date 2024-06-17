@@ -21,45 +21,66 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header>
-      <div class="header-conteiner">
-        <nav class="logo-navigation">
-          <div class="logo-conteiner">
-            <a class="page-logo" href="./index.html">
-              <img
-                class="logo"
-                src="./pictures/logo.jpg"
-                alt="foto-logo"
-                width="66"
-                height="52"
-              />
-            </a>
-          </div>
-          <div class="navigation-conteiner">
-            <ul class="navigation-menu">
-              <li class="navigation-menu-item">
-                <a class="navigation-menu-link" href="./index.html">Home</a>
-              </li>
-              <li class="navigation-menu-item">
-                <a class="navigation-menu-link" href="">About</a>
-              </li>
-              <li class="navigation-menu-item">
-                <a class="navigation-menu-link" href="">Service</a>
-              </li>
-              <li class="navigation-menu-item">
-                <a class="navigation-menu-link" href="">Menu</a>
-              </li>
-              <li class="navigation-menu-item">
-                <a class="navigation-menu-link" href="">Contact</a>
-              </li>
-            </ul>
-          </div>
+    <header class="page-header">
+      <div class="header-conteiner conteiner">
+        <a class="page-logo" href="./index.html">
+          <img
+            class="logo"
+            src="./pictures/logo.jpg"
+            alt="foto-logo"
+            width="66"
+            height="52"
+          />
+        </a>
+        <nav class="header-navigation">
+          <ul class="navigation-menu">
+            <li class="navigation-menu-item">
+              <a class="navigation-menu-link-home" href="./index.html">Home</a>
+            </li>
+            <li class="navigation-menu-item">
+              <a class="navigation-menu-link" href="">About</a>
+            </li>
+            <li class="navigation-menu-item">
+              <a class="navigation-menu-link" href="">Service</a>
+            </li>
+            <li class="navigation-menu-item">
+              <a class="navigation-menu-link" href="">Menu</a>
+            </li>
+            <li class="navigation-menu-item">
+              <a class="navigation-menu-link" href="">Contact</a>
+            </li>
+          </ul>
+          <button class="order-service" type="button" data-modal-open>
+            Order Now
+          </button>
         </nav>
-
-        <button class="order-service" type="button" data-modal-open>
-          Order Now
-        </button>
       </div>
     </header>
+    <main>
+      <!-- ==== HERO ====== -->
+      <section class="box-one">
+        <div class="conteiner conteiner-hero">
+          <div class="inform">
+            <h1 class="title-inform">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="text-inform">
+              With just a few clicks, you can have your favorite meals delivered
+              straight to your doorstep, no matter where you are. Order now and
+              enjoy a hassle-free and delicious meal from the comfort of your
+              own home.
+            </p>
+          </div>
+          <a>
+            <img
+              class="inform-img"
+              src="./pictures/salat-min.jpg"
+              alt="Salat"
+            />
+          </a>
+          <button class="order-service-inform" type="button" data-modal-open>
+            Order Now
+          </button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
